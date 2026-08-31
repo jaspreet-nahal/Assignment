@@ -1,0 +1,399 @@
+# Niche definitions with keywords for classification
+
+niches:
+  fitness:
+    name: "Fitness & Wellness"
+    keywords:
+      - fitness
+      - workout
+      - gym
+      - training
+      - health
+      - wellness
+      - bodybuilding
+      - crossfit
+      - yoga
+      - pilates
+      - running
+      - marathon
+      - nutrition
+      - diet
+      - supplements
+      - protein
+      - muscle
+      - strength
+      - cardio
+      - hiit
+      - personal trainer
+      - coach
+      - athlete
+      - sport
+      - activewear
+      - gymshark
+      - nike training
+    hashtags:
+      - fitness
+      - workout
+      - gym
+      - fitfam
+      - fitnessmotivation
+      - healthylifestyle
+      - training
+      - gymmotivation
+      - fitlife
+      - bodybuilding
+
+  fintech:
+    name: "FinTech & Personal Finance"
+    keywords:
+      - fintech
+      - finance
+      - investing
+      - investment
+      - crypto
+      - cryptocurrency
+      - bitcoin
+      - ethereum
+      - blockchain
+      - defi
+      - trading
+      - stocks
+      - stock market
+      - etf
+      - portfolio
+      - wealth
+      - financial freedom
+      - passive income
+      - budgeting
+      - saving
+      - credit
+      - banking
+      - neobank
+      - digital bank
+      - payments
+      - robinhood
+      - coinbase
+      - binance
+    hashtags:
+      - fintech
+      - finance
+      - investing
+      - personalfinance
+      - financialliteracy
+      - moneytips
+      - wealthbuilding
+      - crypto
+      - bitcoin
+      - trading
+
+  beauty:
+    name: "Beauty & Skincare"
+    keywords:
+      - beauty
+      - skincare
+      - makeup
+      - cosmetics
+      - skincareroutine
+      - makeup tutorial
+      - beauty tips
+      - skincare tips
+      - anti-aging
+      - acne
+      - moisturizer
+      - serum
+      - retinol
+      - vitamin c
+      - sunscreen
+      - spf
+      - foundation
+      - concealer
+      - lipstick
+      - eyeshadow
+      - mascara
+      - sephora
+      - ulta
+      - glossier
+      - fenty beauty
+      - rare beauty
+      - dermatologist
+      - esthetician
+    hashtags:
+      - beauty
+      - skincare
+      - makeup
+      - beautytips
+      - skincareroutine
+      - makeupaddict
+      - beautyblogger
+      - skincarecommunity
+      - makeupartist
+      - beautyhacks
+
+  fashion:
+    name: "Fashion & Style"
+    keywords:
+      - fashion
+      - style
+      - outfit
+      - ootd
+      - streetwear
+      - vintage
+      - thrift
+      - sustainable fashion
+      - capsule wardrobe
+      - fashion tips
+      - styling
+      - accessories
+      - shoes
+      - sneakers
+      - handbags
+      - jewelry
+      - fashion week
+      - runway
+      - designer
+      - luxury
+      - affordable fashion
+      - plus size fashion
+      - petite fashion
+      - menswear
+      - womenswear
+      - uniqlo
+      - zara
+      - h&m
+    hashtags:
+      - fashion
+      - style
+      - ootd
+      - outfit
+      - fashionblogger
+      - streetstyle
+      - fashioninspo
+      - styleinspo
+      - outfitinspo
+      - fashionista
+
+  crypto:
+    name: "Cryptocurrency & Web3"
+    keywords:
+      - crypto
+      - cryptocurrency
+      - bitcoin
+      - btc
+      - ethereum
+      - eth
+      - altcoin
+      - defi
+      - nft
+      - web3
+      - blockchain
+      - trading
+      - hodl
+      - mining
+      - staking
+      - yield farming
+      - dao
+      - metaverse
+      - token
+      - wallet
+      - exchange
+      - binance
+      - coinbase
+      - kraken
+      - uniswap
+      - opensea
+      - airdrop
+      - whitelist
+      - presale
+      - ico
+      - id
+    hashtags:
+      - crypto
+      - bitcoin
+      - ethereum
+      - cryptocurrency
+      - blockchain
+      - web3
+      - nft
+      - defi
+      - trading
+      - hodl
+
+  parenting:
+    name: "Parenting & Family"
+    keywords:
+      - parenting
+      - mom
+      - dad
+      - motherhood
+      - fatherhood
+      - baby
+      - newborn
+      - toddler
+      - kids
+      - children
+      - family
+      - pregnancy
+      - postpartum
+      - breastfeeding
+      - sleep training
+      - montessori
+      - gentle parenting
+      - attachment parenting
+      - stay at home mom
+      - working mom
+      - mom life
+      - dad life
+      - family vlog
+      - kids activities
+      - educational toys
+      - baby gear
+      - stroller
+      - car seat
+    hashtags:
+      - parenting
+      - momlife
+      - dadlife
+      - motherhood
+      - fatherhood
+      - family
+      - kids
+      - toddler
+      - baby
+      - pregnancy
+
+  gaming:
+    name: "Gaming & Esports"
+    keywords:
+      - gaming
+      - gamer
+      - video games
+      - esports
+      - twitch
+      - streamer
+      - streaming
+      - playstation
+      - xbox
+      - nintendo
+      - switch
+      - pc gaming
+      - gaming setup
+      - rgb
+      - mechanical keyboard
+      - gaming mouse
+      - headset
+      - fortnite
+      - valorant
+      - league of legends
+      - apex legends
+      - call of duty
+      - warzone
+      - minecraft
+      - roblox
+      - among us
+      - fall guys
+      - speedrun
+      - walkthrough
+      - let's play
+      - game review
+    hashtags:
+      - gaming
+      - gamer
+      - esports
+      - twitch
+      - streaming
+      - videogames
+      - gamingsetup
+      - pcgaming
+      - console
+      - gameplay
+
+  lifestyle:
+    name: "Lifestyle & Vlogging"
+    keywords:
+      - lifestyle
+      - vlog
+      - vlogger
+      - daily vlog
+      - routine
+      - morning routine
+      - night routine
+      - productivity
+      - self care
+      - mental health
+      - wellness
+      - mindfulness
+      - meditation
+      - journaling
+      - planning
+      - organization
+      - home decor
+      - interior design
+      - apartment tour
+      - room tour
+      - minimalism
+      - decluttering
+      - sustainable living
+      - zero waste
+      - travel
+      - travel vlog
+      - foodie
+      - cooking
+      - recipes
+      - meal prep
+    hashtags:
+      - lifestyle
+      - vlog
+      - dailylife
+      - routine
+      - productivity
+      - selfcare
+      - mentalhealth
+      - home
+      - decor
+      - travel
+
+  technology:
+    name: "Technology & Programming"
+    keywords:
+      - tech
+      - technology
+      - programming
+      - coding
+      - developer
+      - software engineer
+      - web development
+      - mobile development
+      - app development
+      - ai
+      - artificial intelligence
+      - machine learning
+      - data science
+      - python
+      - javascript
+      - react
+      - node.js
+      - typescript
+      - devops
+      - cloud
+      - aws
+      - azure
+      - gcp
+      - docker
+      - kubernetes
+      - git
+      - github
+      - open source
+      - startup
+      - saas
+      - indie hacker
+    hashtags:
+      - tech
+      - technology
+      - programming
+      - coding
+      - developer
+      - softwareengineer
+      - webdev
+      - ai
+      - machinelearning
+      - startup

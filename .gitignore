@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+data/*.db
+data/*.db-journal
+logs/*.log
+*.sqlite*
+playwright/.local-browsers/
+.pytest_cache/
+.coverage
+htmlcov/

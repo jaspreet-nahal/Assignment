@@ -1,0 +1,225 @@
+# Outreach message templates with Jinja2 syntax PS: These templates are refined using AI(not made)
+
+templates:
+  collaboration_proposal:
+    name: "Standard Collaboration Proposal"
+    subject: "Collaboration Opportunity with {{ brand_name }} for {{ influencer_name }}"
+    body: |
+      Hi {{ influencer_name }},
+
+      I've been following your content on {{ platform }} and absolutely love your {{ niche }} content! Your post about {{ recent_post_topic }} really resonated with me - {{ personal_comment }}.
+
+      I'm reaching out from {{ brand_name }}, a {{ brand_description }}. We think you'd be a perfect fit for our upcoming campaign because {{ alignment_reason }}.
+
+      **What we're looking for:**
+      - {{ content_requirements }}
+      - Timeline: {{ timeline }}
+      - Compensation: {{ compensation }}
+
+      **Why you're a great fit:**
+      - Your {{ engagement_rate }}% engagement rate shows genuine audience connection
+      - Your audience aligns perfectly with our target demographic
+      - Your authentic voice matches our brand values
+
+      Would you be open to a quick call to discuss this further? I'd love to share more details and hear your thoughts.
+
+      Best regards,
+      {{ sender_name }}
+      {{ sender_title }}
+      {{ brand_name }}
+      {{ sender_email }}
+
+  product_seeding:
+    name: "Product Seeding / Gifted Campaign"
+    subject: "Gift for you from {{ brand_name }} 🎁"
+    body: |
+      Hi {{ influencer_name }},
+
+      Love your {{ niche }} content! Your recent {{ recent_post_type }} about {{ recent_post_topic }} was {{ personal_comment }}.
+
+      I'm {{ sender_name }} from {{ brand_name }} - we {{ brand_description }}. We'd love to send you our {{ product_name }} (worth ${{ product_value }}) to try out - no strings attached!
+
+      **What's included:**
+      - {{ product_description }}
+      - {{ key_features }}
+
+      If you genuinely love it and want to share with your audience, that would be amazing - but absolutely no pressure either way. We just think you'd genuinely enjoy it.
+
+      Interested? Just reply with your best shipping address and I'll get it sent out this week.
+
+      Cheers,
+      {{ sender_name }}
+      {{ brand_name }}
+
+  affiliate_partnership:
+    name: "Affiliate Partnership Proposal"
+    subject: "Affiliate Partnership: Earn {{ commission_rate }}% with {{ brand_name }}"
+    body: |
+      Hi {{ influencer_name }},
+
+      I've been impressed by your {{ niche }} content on {{ platform }} - especially your take on {{ recent_post_topic }}. Your audience clearly trusts your recommendations.
+
+      I'm {{ sender_name }} from {{ brand_name }}, where we {{ brand_description }}. We're launching an affiliate program and would love to have you as a founding partner.
+
+      **Program highlights:**
+      - {{ commission_rate }}% commission on all sales
+      - 30-day cookie window
+      - Exclusive {{ discount_code }} for your followers ({{ discount_percent }}% off)
+      - Monthly payouts via PayPal/bank transfer
+      - Dedicated affiliate dashboard with real-time tracking
+      - Early access to new products
+
+      **Why this works for you:**
+      - Your {{ follower_count }} followers in the {{ niche }} niche
+      - {{ engagement_rate }}% engagement shows high purchase intent
+      - Passive income stream alongside your content
+
+      Ready to join? I'll set up your custom tracking link and dashboard today.
+
+      Best,
+      {{ sender_name }}
+      {{ brand_name }}
+      {{ sender_email }}
+
+  brand_ambassador:
+    name: "Long-term Brand Ambassador"
+    subject: "Brand Ambassador Opportunity with {{ brand_name }}"
+    body: |
+      Hi {{ influencer_name }},
+
+      Your {{ niche }} content on {{ platform }} has caught our attention! Your post about {{ recent_post_topic }} showed exactly the kind of authentic engagement we value.
+
+      I'm {{ sender_name }} from {{ brand_name }} - {{ brand_description }}. We're looking for long-term brand ambassadors and you're at the top of our list.
+
+      **Ambassador perks:**
+      - Monthly product credits (${{ monthly_credit }}/month)
+      - Exclusive access to new launches
+      - {{ commission_rate }}% affiliate commission on all sales
+      - Featured on our brand channels ({{ brand_followers }} followers)
+      - Invitation to brand events & trips
+      - Direct line to our product team for feedback
+
+      **Commitment:**
+      - {{ posts_per_month }} posts/month + {{ stories_per_month }} stories/month
+      - 6-month initial term
+      - Creative freedom - we trust your voice!
+
+      Your {{ follower_count }} followers and {{ engagement_rate }}% engagement make you an ideal partner. Interested in learning more?
+
+      Let's chat this week -
+      {{ sender_name }}
+      {{ brand_name }}
+
+  event_invitation:
+    name: "Event/Launch Invitation"
+    subject: "Exclusive Invite: {{ event_name }} - {{ event_date }}"
+    body: |
+      Hi {{ influencer_name }},
+
+      Big fan of your {{ niche }} content! Your perspective on {{ recent_post_topic }} is exactly why we'd love to have you at our upcoming event.
+
+      I'm {{ sender_name }} from {{ brand_name }}. We're hosting **{{ event_name }}** on **{{ event_date }}** at **{{ event_location }}** (or virtual: {{ virtual_link }}).
+
+      **What's happening:**
+      - {{ event_highlights }}
+      - Network with {{ other_attendees }}
+      - First look at {{ product_launch }}
+      - Content creation opportunities
+      - {{ special_perks }}
+
+      We'd cover your {{ travel_coverage }} and provide {{ additional_perks }}. This would be a great chance to create content for your {{ platform }} audience while connecting with other {{ niche }} creators.
+
+      Can you make it? Let me know by {{ rsvp_deadline }} and I'll send the details.
+
+      Excited about the possibility!
+      {{ sender_name }}
+      {{ brand_name }}
+
+  uGC_request:
+    name: "UGC Content Request"
+    subject: "Paid UGC Opportunity: {{ brand_name }} x {{ influencer_name }}"
+    body: |
+      Hi {{ influencer_name }},
+
+      Love your content style on {{ platform }}! Your {{ recent_post_type }} about {{ recent_post_topic }} has that authentic feel we're looking for.
+
+      I'm {{ sender_name }} from {{ brand_name }}. We're looking for creators to produce UGC (User Generated Content) for our {{ campaign_name }} campaign.
+
+      **Project details:**
+      - {{ video_count }} videos ({{ video_length }} each)
+      - {{ photo_count }} photos
+      - Usage rights: {{ usage_rights }}
+      - Timeline: {{ timeline }}
+      - Budget: ${{ budget_total }} total (${{ budget_per_asset }}/asset)
+
+      **Creative brief:**
+      {{ creative_brief }}
+
+      **Why you:**
+      - Your {{ engagement_rate }}% engagement rate
+      - Authentic {{ niche }} content style
+      - Professional quality with relatable delivery
+
+      If interested, I'll send the full brief and contract. We move fast - first shoot could be next week!
+
+      Best,
+      {{ sender_name }}
+      {{ brand_name }}
+      {{ sender_email }}
+
+# Default values for template variables
+defaults:
+  brand_name: "YourBrand"
+  brand_description: "an innovative brand in the {{ niche }} space"
+  sender_name: "Your Name"
+  sender_title: "Partnerships Manager"
+  sender_email: "partnerships@yourbrand.com"
+  brand_followers: "100K+"
+
+  # Collaboration proposal defaults
+  content_requirements: "3 feed posts + 5 stories over 4 weeks"
+  timeline: "4 weeks from agreement"
+  compensation: "$500-1000 + product"
+  alignment_reason: "your authentic {{ niche }} content and engaged community"
+  personal_comment: "so authentic and helpful"
+
+  # Product seeding defaults
+  product_name: "our latest product"
+  product_value: "50"
+  product_description: "premium quality with natural ingredients"
+  key_features: "vegan, cruelty-free, sustainable packaging"
+  recent_post_type: "post"
+  recent_post_topic: "your niche content"
+
+  # Affiliate defaults
+  commission_rate: "20"
+  discount_code: "{{ influencer_name.upper() }}20"
+  discount_percent: "20"
+
+  # Ambassador defaults
+  monthly_credit: "200"
+  posts_per_month: "4"
+  stories_per_month: "8"
+
+  # Event defaults
+  event_name: "Brand Launch Event"
+  event_date: "TBD"
+  event_location: "NYC / Virtual"
+  virtual_link: "zoom link provided"
+  event_highlights: "product demos, networking, content creation stations"
+  other_attendees: "top {{ niche }} creators"
+  product_launch: "our new collection"
+  special_perks: "gift bag worth $200+"
+  travel_coverage: "travel + accommodation"
+  additional_perks: "exclusive product access"
+  rsvp_deadline: "this Friday"
+
+  # UGC defaults
+  campaign_name: "Summer Campaign"
+  video_count: "5"
+  video_length: "30-60 seconds"
+  photo_count: "10"
+  usage_rights: "paid social, website, email (12 months)"
+  budget_total: "1500"
+  budget_per_asset: "100"
+  creative_brief: "Show the product in your daily routine, highlight 2-3 key benefits, end with CTA"

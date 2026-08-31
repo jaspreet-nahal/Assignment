@@ -1,0 +1,120 @@
+{
+  "pipeline_id": "sample-run-001",
+  "pipeline_name": "Micro-Influencer Discovery Q1 2025",
+  "status": "completed",
+  "started_at": "2025-01-15T10:00:00",
+  "completed_at": "2025-01-15T10:45:00",
+  "duration_seconds": 2700,
+  "target_count": 50,
+  "actual_count": 5,
+  "success_rate": 0.1,
+  "niches": ["fitness", "crypto", "beauty", "technology", "fashion"],
+  "platforms": ["instagram", "youtube"],
+  "influencers": [
+    {
+      "id": "inf-001",
+      "username": "fitness_john",
+      "platform": "instagram",
+      "display_name": "John Smith",
+      "follower_count": 25000,
+      "niche": "fitness",
+      "niche_confidence": 0.95,
+      "engagement_rate": 0.045,
+      "engagement_rate_percent": 4.5,
+      "overall_score": 87.5,
+      "has_email": true,
+      "profile_url": "https://instagram.com/fitness_john",
+      "outreach_variants": 3
+    },
+    {
+      "id": "inf-002",
+      "username": "crypto_sarah",
+      "platform": "instagram",
+      "display_name": "Sarah Chen",
+      "follower_count": 45000,
+      "niche": "crypto",
+      "niche_confidence": 0.92,
+      "engagement_rate": 0.038,
+      "engagement_rate_percent": 3.8,
+      "overall_score": 82.3,
+      "has_email": true,
+      "profile_url": "https://instagram.com/crypto_sarah",
+      "outreach_variants": 3
+    },
+    {
+      "id": "inf-003",
+      "username": "beauty_emma",
+      "platform": "youtube",
+      "display_name": "Emma Wilson",
+      "follower_count": 78000,
+      "niche": "beauty",
+      "niche_confidence": 0.98,
+      "engagement_rate": 0.052,
+      "engagement_rate_percent": 5.2,
+      "overall_score": 91.7,
+      "has_email": true,
+      "profile_url": "https://youtube.com/@beauty_emma",
+      "outreach_variants": 3
+    },
+    {
+      "id": "inf-004",
+      "username": "tech_alex",
+      "platform": "youtube",
+      "display_name": "Alex Kumar",
+      "follower_count": 32000,
+      "niche": "technology",
+      "niche_confidence": 0.94,
+      "engagement_rate": 0.041,
+      "engagement_rate_percent": 4.1,
+      "overall_score": 85.2,
+      "has_email": false,
+      "profile_url": "https://youtube.com/@tech_alex",
+      "outreach_variants": 2
+    },
+    {
+      "id": "inf-005",
+      "username": "fashion_maya",
+      "platform": "instagram",
+      "display_name": "Maya Rodriguez",
+      "follower_count": 18000,
+      "niche": "fashion",
+      "niche_confidence": 0.96,
+      "engagement_rate": 0.048,
+      "engagement_rate_percent": 4.8,
+      "overall_score": 89.1,
+      "has_email": true,
+      "profile_url": "https://instagram.com/fashion_maya",
+      "outreach_variants": 3
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp-001",
+      "name": "Fitness Brand Launch Campaign",
+      "brand_name": "FitLife",
+      "niche": "fitness",
+      "status": "draft",
+      "total_messages": 3,
+      "unique_influencers": 1
+    },
+    {
+      "id": "camp-002",
+      "name": "Crypto Education Series",
+      "brand_name": "ChainLearn",
+      "niche": "crypto",
+      "status": "draft",
+      "total_messages": 3,
+      "unique_influencers": 1
+    },
+    {
+      "id": "camp-003",
+      "name": "Clean Beauty Ambassador Program",
+      "brand_name": "PureGlow",
+      "niche": "beauty",
+      "status": "active",
+      "total_messages": 3,
+      "unique_influencers": 1
+    }
+  ],
+  "errors": []
+}

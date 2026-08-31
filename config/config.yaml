@@ -1,0 +1,49 @@
+# Main configuration for Micro-Influencer Outreach System
+
+discovery:
+  target_count: 50
+  niches:
+    - fitness
+    - fintech
+    - beauty
+    - fashion
+    - crypto
+    - parenting
+    - gaming
+    - lifestyle
+    - technology
+  platforms:
+    - instagram
+    - youtube
+  rate_limits:
+    instagram: 30  
+    youtube: 100   
+  max_concurrent: 5
+  request_timeout: 30
+
+filter:
+  min_followers: 5000
+  max_followers: 100000
+  min_engagement_rate: 0.02
+  require_contact_info: false
+  min_posts: 10
+
+enrichment:
+  extract_emails: true
+  analyze_recent_posts: 10
+  check_cross_platform: true
+  resolve_link_in_bio: true
+
+outreach:
+  gemini_model: "gemini-3.6-flash"
+  temperature: 0.7
+  max_tokens: 500
+  variants_per_influencer: 3
+
+storage:
+  database_path: "data/influencers.db"
+  export_path: "data/results.json"
+
+logging:
+  level: "INFO"
+  file: "logs/outreach.log"
