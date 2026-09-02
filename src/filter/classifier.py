@@ -1,8 +1,3 @@
-"""
-Niche classifier for influencers.
-Uses keyword matching and optional ML-based classification.
-"""
-
 import logging
 import re
 from typing import List, Dict, Optional, Tuple
