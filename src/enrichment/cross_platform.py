@@ -1,8 +1,3 @@
-"""
-Cross-platform presence analysis for influencer enrichment.
-Checks for consistent branding and presence across multiple social platforms.
-"""
-
 import asyncio
 import logging
 import re
