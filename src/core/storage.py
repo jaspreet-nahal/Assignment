@@ -1,8 +1,3 @@
-"""
-Storage layer for the Micro-Influencer Outreach System.
-Provides SQLite persistence and JSON export functionality.
-"""
-
 import json
 import sqlite3
 import aiosqlite
