@@ -1,7 +1,3 @@
-"""
-Core module for Micro-Influencer Outreach System.
-"""
-
 from src.core.config import (
     get_settings,
     get_niche_keywords,
