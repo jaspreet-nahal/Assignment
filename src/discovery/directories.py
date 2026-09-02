@@ -1,8 +1,3 @@
-"""
-Public influencer directory scrapers.
-Scrapes platforms like Collabstr, Aspire, Grin, and creator newsletters.
-"""
-
 import asyncio
 import logging
 import re
