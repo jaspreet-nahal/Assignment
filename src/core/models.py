@@ -1,8 +1,3 @@
-"""
-Core data models for the Micro-Influencer Outreach System.
-Using Pydantic v2 for type validation and serialization.
-"""
-
 from datetime import datetime
 from enum import Enum
 from typing import Optional, List, Dict, Any, Literal
