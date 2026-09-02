@@ -1,8 +1,3 @@
-"""
-CLI entry point for Micro-Influencer Outreach System.
-Run the full pipeline: discovery -> filtering -> enrichment -> outreach.
-"""
-
 import asyncio
 import json
 import logging
