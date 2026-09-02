@@ -1,7 +1,3 @@
-"""
-Filter criteria engine for influencer filtering and classification.
-"""
-
 import logging
 from dataclasses import dataclass, field
 from typing import List, Optional, Dict, Any, Callable
