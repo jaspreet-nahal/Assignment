@@ -1,9 +1,3 @@
-"""
-Instagram influencer discovery using public pages and scraping.
-Note: Instagram has strict anti-scraping measures. This uses public hashtag pages
-and search results. For production, consider using Instagram Graph API.
-"""
-
 import asyncio
 import json
 import re
