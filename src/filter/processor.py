@@ -1,7 +1,3 @@
-"""
-Filter processor pipeline - orchestrates filtering, classification, and scoring.
-"""
-
 import logging
 from typing import List, Optional, Dict, Any
 from dataclasses import dataclass
