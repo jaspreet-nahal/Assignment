@@ -1,8 +1,3 @@
-"""
-AI-powered outreach message generator using Google Gemini.
-Generates personalized outreach messages from enriched influencer profiles.
-"""
-
 import asyncio
 import logging
 import os
