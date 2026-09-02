@@ -1,8 +1,3 @@
-"""
-Filter module for Micro-Influencer Outreach System.
-Provides filtering, classification, and scoring of influencers.
-"""
-
 from src.filter.criteria import (
     FilterCriteria,
     FilterReason,
