@@ -1,8 +1,3 @@
-"""
-Campaign management for outreach operations.
-Handles creation, tracking, and export of outreach campaigns.
-"""
-
 import logging
 from datetime import datetime
 from typing import Dict, List, Optional, Any
