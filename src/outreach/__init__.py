@@ -1,8 +1,3 @@
-"""
-Outreach module for Micro-Influencer Outreach System.
-Provides AI-powered personalized outreach message generation and campaign management.
-"""
-
 from src.outreach.personalization import (
     PersonalizationEngine,
     PersonalizationPrompts,
