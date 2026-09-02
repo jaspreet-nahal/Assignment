@@ -1,7 +1,3 @@
-"""
-Template management for outreach messages.
-Handles Jinja2 template loading, rendering, and validation.
-"""
 import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Any
