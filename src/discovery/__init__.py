@@ -1,8 +1,3 @@
-"""
-Discovery module for Micro-Influencer Outreach System.
-Provides influencer discovery from multiple platforms and sources.
-"""
-
 from src.discovery.base import (
     DiscoveryBase,
     MockDiscoveryBase,
