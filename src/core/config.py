@@ -1,8 +1,3 @@
-"""
-Configuration management for the Micro-Influencer Outreach System.
-Loads settings from YAML files with environment variable overrides.
-"""
-
 import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
