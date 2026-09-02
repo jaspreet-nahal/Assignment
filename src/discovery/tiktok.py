@@ -1,9 +1,3 @@
-"""
-TikTok influencer discovery using public pages and scraping.
-Note: TikTok has strict anti-bot measures. This uses public hashtag pages.
-For production, consider TikTok API or specialized scraping services.
-"""
-
 import asyncio
 import json
 import logging
