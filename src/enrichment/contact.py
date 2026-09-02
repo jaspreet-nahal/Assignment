@@ -1,7 +1,3 @@
-"""
-Contact information extraction for influencer enrichment.
-Extracts emails, phones, and business contact info from profiles and link-in-bio pages.
-"""
 import logging
 import re
 from typing import Dict, List, Optional, Any
