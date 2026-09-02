@@ -1,8 +1,3 @@
-"""
-Enrichment module for Micro-Influencer Outreach System.
-Provides profile enrichment including contact extraction, content analysis, and cross-platform presence.
-"""
-
 from src.enrichment.base import (
     EnrichmentBase,
     RateLimiter,
