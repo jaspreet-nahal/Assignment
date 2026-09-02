@@ -1,7 +1,3 @@
-"""
-Discovery Manager - Coordinates all discovery sources and runs concurrent discovery.
-"""
-
 import asyncio
 import logging
 from typing import List, Optional, Dict, Any, Set
