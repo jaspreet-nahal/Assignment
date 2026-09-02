@@ -1,7 +1,3 @@
-"""
-Personalization engine for outreach message generation.
-Extracts rich personalization signals from enriched influencer profiles.
-"""
 import logging
 from datetime import datetime
 from typing import Dict, List, Optional, Any
