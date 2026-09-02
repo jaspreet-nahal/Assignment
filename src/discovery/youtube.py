@@ -1,8 +1,3 @@
-"""
-YouTube influencer discovery using YouTube Data API v3.
-Free tier: 10,000 units/day (search costs 100 units, channel details cost 1 unit each).
-"""
-
 import asyncio
 import logging
 import os
